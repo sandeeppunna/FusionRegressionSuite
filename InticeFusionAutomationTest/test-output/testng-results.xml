@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="19" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Intic Fusion Automation Framework" duration-ms="244954" started-at="2016-03-07T12:57:17Z" finished-at="2016-03-07T13:01:21Z">
+    <groups>
+      <group name="bvt">
+        <method signature="LoginTest.logIn(java.lang.String, java.lang.String)[pri:0, instance:Login.LoginTest@2cc639]" name="logIn" class="Login.LoginTest"/>
+        <method signature="Verify_Create_Dynamic_Campaign.verify_Create_Dynamic_Campaign(java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign@4f1591]" name="verify_Create_Dynamic_Campaign" class="Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign"/>
+        <method signature="Verify_Choose_A_Type.verify_Choose_A_Type_Of_Campaign()[pri:0, instance:Create_Dynamic_Campaigns.Verify_Choose_A_Type@8ac0e1]" name="verify_Choose_A_Type_Of_Campaign" class="Create_Dynamic_Campaigns.Verify_Choose_A_Type"/>
+        <method signature="Verify_Select_A_List.verify_Select_List(java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Select_A_List@1dd365]" name="verify_Select_List" class="Create_Dynamic_Campaigns.Verify_Select_A_List"/>
+        <method signature="Verify_General_Info.verify_General_Information(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_General_Info@c5069b]" name="verify_General_Information" class="Create_Dynamic_Campaigns.Verify_General_Info"/>
+        <method signature="Verify_Landing_Page_Details.verify_Landing_Page(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Landing_Page_Details@155e85b]" name="verify_Landing_Page" class="Create_Dynamic_Campaigns.Verify_Landing_Page_Details"/>
+        <method signature="Verify_Select_Template.verify_Select_Template()[pri:0, instance:Create_Dynamic_Campaigns.Verify_Select_Template@70a728]" name="verify_Select_Template" class="Create_Dynamic_Campaigns.Verify_Select_Template"/>
+        <method signature="Verify_Text_Preview.verify_Text_Preview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Text_Preview@1ac5227]" name="verify_Text_Preview" class="Create_Dynamic_Campaigns.Verify_Text_Preview"/>
+        <method signature="Select_Segment_For_Matching.select_Segment(java.lang.String)[pri:0, instance:Manage_Segment.Select_Segment_For_Matching@3b4ac8]" name="select_Segment" class="Manage_Segment.Select_Segment_For_Matching"/>
+        <method signature="Count_For_Matched_Missed_Multiple.manage_segment_for_Matched_Multiple_Missed()[pri:0, instance:Manage_Segment.Count_For_Matched_Missed_Multiple@153b9e]" name="manage_segment_for_Matched_Multiple_Missed" class="Manage_Segment.Count_For_Matched_Missed_Multiple"/>
+        <method signature="Click_Next_Button_without_Creating_Backup.verify_Next_Button_Without_Creating_Backup_Ad()[pri:0, instance:Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup@142162a]" name="verify_Next_Button_Without_Creating_Backup_Ad" class="Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup"/>
+        <method signature="Verify_Segment_Count.verify_Segment_Count_In_Create_Generic_Ad(java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Segment_Count@6804cd]" name="verify_Segment_Count_In_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Verify_Segment_Count"/>
+        <method signature="Verify_Text_Lines.verify_Text_Lines_In_Create_Generic_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Text_Lines@1a00fb9]" name="verify_Text_Lines_In_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Verify_Text_Lines"/>
+        <method signature="Verify_Landing_Page_URL.verify_Landing_Page_url(java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Landing_Page_URL@1459491]" name="verify_Landing_Page_url" class="Create_Generic_BackUp_Ads.Verify_Landing_Page_URL"/>
+        <method signature="Create_GenericAd.verify_Create_Generic_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Create_GenericAd@141827a]" name="verify_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Create_GenericAd"/>
+        <method signature="Create_BackUpAd.verify_Backup_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Create_BackUpAd@1fa2213]" name="verify_Backup_Ad" class="Create_Generic_BackUp_Ads.Create_BackUpAd"/>
+        <method signature="Verify_Backup_Checkbox.verify_Backup_Checkbox()[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Backup_Checkbox@7288a3]" name="verify_Backup_Checkbox" class="Create_Generic_BackUp_Ads.Verify_Backup_Checkbox"/>
+        <method signature="Verify_Preview_Page.verify_Create_Dynamic_Campaign(java.lang.String)[pri:0, instance:Preview.Verify_Preview_Page@16f48b4]" name="verify_Create_Dynamic_Campaign" class="Preview.Verify_Preview_Page"/>
+        <method signature="Verify_Background_Images.verify_Background_Images(java.lang.String)[pri:0, instance:Preview.Verify_Background_Images@398c80]" name="verify_Background_Images" class="Preview.Verify_Background_Images"/>
+      </group> <!-- bvt -->
+      <group name="test">
+        <method signature="LoginTest.logIn(java.lang.String, java.lang.String)[pri:0, instance:Login.LoginTest@2cc639]" name="logIn" class="Login.LoginTest"/>
+        <method signature="Verify_Create_Dynamic_Campaign.verify_Create_Dynamic_Campaign(java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign@4f1591]" name="verify_Create_Dynamic_Campaign" class="Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign"/>
+        <method signature="Verify_Choose_A_Type.verify_Choose_A_Type_Of_Campaign()[pri:0, instance:Create_Dynamic_Campaigns.Verify_Choose_A_Type@8ac0e1]" name="verify_Choose_A_Type_Of_Campaign" class="Create_Dynamic_Campaigns.Verify_Choose_A_Type"/>
+        <method signature="Verify_Select_A_List.verify_Select_List(java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Select_A_List@1dd365]" name="verify_Select_List" class="Create_Dynamic_Campaigns.Verify_Select_A_List"/>
+        <method signature="Verify_General_Info.verify_General_Information(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_General_Info@c5069b]" name="verify_General_Information" class="Create_Dynamic_Campaigns.Verify_General_Info"/>
+        <method signature="Verify_Landing_Page_Details.verify_Landing_Page(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Landing_Page_Details@155e85b]" name="verify_Landing_Page" class="Create_Dynamic_Campaigns.Verify_Landing_Page_Details"/>
+        <method signature="Verify_Select_Template.verify_Select_Template()[pri:0, instance:Create_Dynamic_Campaigns.Verify_Select_Template@70a728]" name="verify_Select_Template" class="Create_Dynamic_Campaigns.Verify_Select_Template"/>
+        <method signature="Verify_Text_Preview.verify_Text_Preview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Text_Preview@1ac5227]" name="verify_Text_Preview" class="Create_Dynamic_Campaigns.Verify_Text_Preview"/>
+        <method signature="Select_Segment_For_Matching.select_Segment(java.lang.String)[pri:0, instance:Manage_Segment.Select_Segment_For_Matching@3b4ac8]" name="select_Segment" class="Manage_Segment.Select_Segment_For_Matching"/>
+        <method signature="Count_For_Matched_Missed_Multiple.manage_segment_for_Matched_Multiple_Missed()[pri:0, instance:Manage_Segment.Count_For_Matched_Missed_Multiple@153b9e]" name="manage_segment_for_Matched_Multiple_Missed" class="Manage_Segment.Count_For_Matched_Missed_Multiple"/>
+        <method signature="Click_Next_Button_without_Creating_Backup.verify_Next_Button_Without_Creating_Backup_Ad()[pri:0, instance:Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup@142162a]" name="verify_Next_Button_Without_Creating_Backup_Ad" class="Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup"/>
+        <method signature="Verify_Segment_Count.verify_Segment_Count_In_Create_Generic_Ad(java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Segment_Count@6804cd]" name="verify_Segment_Count_In_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Verify_Segment_Count"/>
+        <method signature="Verify_Text_Lines.verify_Text_Lines_In_Create_Generic_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Text_Lines@1a00fb9]" name="verify_Text_Lines_In_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Verify_Text_Lines"/>
+        <method signature="Verify_Landing_Page_URL.verify_Landing_Page_url(java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Landing_Page_URL@1459491]" name="verify_Landing_Page_url" class="Create_Generic_BackUp_Ads.Verify_Landing_Page_URL"/>
+        <method signature="Create_GenericAd.verify_Create_Generic_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Create_GenericAd@141827a]" name="verify_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Create_GenericAd"/>
+        <method signature="Create_BackUpAd.verify_Backup_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Create_BackUpAd@1fa2213]" name="verify_Backup_Ad" class="Create_Generic_BackUp_Ads.Create_BackUpAd"/>
+        <method signature="Verify_Backup_Checkbox.verify_Backup_Checkbox()[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Backup_Checkbox@7288a3]" name="verify_Backup_Checkbox" class="Create_Generic_BackUp_Ads.Verify_Backup_Checkbox"/>
+        <method signature="Verify_Preview_Page.verify_Create_Dynamic_Campaign(java.lang.String)[pri:0, instance:Preview.Verify_Preview_Page@16f48b4]" name="verify_Create_Dynamic_Campaign" class="Preview.Verify_Preview_Page"/>
+        <method signature="Verify_Background_Images.verify_Background_Images(java.lang.String)[pri:0, instance:Preview.Verify_Background_Images@398c80]" name="verify_Background_Images" class="Preview.Verify_Background_Images"/>
+      </group> <!-- test -->
+      <group name="regression">
+        <method signature="LoginTest.logIn(java.lang.String, java.lang.String)[pri:0, instance:Login.LoginTest@2cc639]" name="logIn" class="Login.LoginTest"/>
+        <method signature="Verify_Create_Dynamic_Campaign.verify_Create_Dynamic_Campaign(java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign@4f1591]" name="verify_Create_Dynamic_Campaign" class="Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign"/>
+        <method signature="Verify_Choose_A_Type.verify_Choose_A_Type_Of_Campaign()[pri:0, instance:Create_Dynamic_Campaigns.Verify_Choose_A_Type@8ac0e1]" name="verify_Choose_A_Type_Of_Campaign" class="Create_Dynamic_Campaigns.Verify_Choose_A_Type"/>
+        <method signature="Verify_Select_A_List.verify_Select_List(java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Select_A_List@1dd365]" name="verify_Select_List" class="Create_Dynamic_Campaigns.Verify_Select_A_List"/>
+        <method signature="Verify_General_Info.verify_General_Information(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_General_Info@c5069b]" name="verify_General_Information" class="Create_Dynamic_Campaigns.Verify_General_Info"/>
+        <method signature="Verify_Landing_Page_Details.verify_Landing_Page(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Landing_Page_Details@155e85b]" name="verify_Landing_Page" class="Create_Dynamic_Campaigns.Verify_Landing_Page_Details"/>
+        <method signature="Verify_Select_Template.verify_Select_Template()[pri:0, instance:Create_Dynamic_Campaigns.Verify_Select_Template@70a728]" name="verify_Select_Template" class="Create_Dynamic_Campaigns.Verify_Select_Template"/>
+        <method signature="Verify_Text_Preview.verify_Text_Preview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Text_Preview@1ac5227]" name="verify_Text_Preview" class="Create_Dynamic_Campaigns.Verify_Text_Preview"/>
+        <method signature="Select_Segment_For_Matching.select_Segment(java.lang.String)[pri:0, instance:Manage_Segment.Select_Segment_For_Matching@3b4ac8]" name="select_Segment" class="Manage_Segment.Select_Segment_For_Matching"/>
+        <method signature="Count_For_Matched_Missed_Multiple.manage_segment_for_Matched_Multiple_Missed()[pri:0, instance:Manage_Segment.Count_For_Matched_Missed_Multiple@153b9e]" name="manage_segment_for_Matched_Multiple_Missed" class="Manage_Segment.Count_For_Matched_Missed_Multiple"/>
+        <method signature="Click_Next_Button_without_Creating_Backup.verify_Next_Button_Without_Creating_Backup_Ad()[pri:0, instance:Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup@142162a]" name="verify_Next_Button_Without_Creating_Backup_Ad" class="Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup"/>
+        <method signature="Verify_Segment_Count.verify_Segment_Count_In_Create_Generic_Ad(java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Segment_Count@6804cd]" name="verify_Segment_Count_In_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Verify_Segment_Count"/>
+        <method signature="Verify_Text_Lines.verify_Text_Lines_In_Create_Generic_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Text_Lines@1a00fb9]" name="verify_Text_Lines_In_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Verify_Text_Lines"/>
+        <method signature="Verify_Landing_Page_URL.verify_Landing_Page_url(java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Landing_Page_URL@1459491]" name="verify_Landing_Page_url" class="Create_Generic_BackUp_Ads.Verify_Landing_Page_URL"/>
+        <method signature="Create_GenericAd.verify_Create_Generic_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Create_GenericAd@141827a]" name="verify_Create_Generic_Ad" class="Create_Generic_BackUp_Ads.Create_GenericAd"/>
+        <method signature="Create_BackUpAd.verify_Backup_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Create_BackUpAd@1fa2213]" name="verify_Backup_Ad" class="Create_Generic_BackUp_Ads.Create_BackUpAd"/>
+        <method signature="Verify_Backup_Checkbox.verify_Backup_Checkbox()[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Backup_Checkbox@7288a3]" name="verify_Backup_Checkbox" class="Create_Generic_BackUp_Ads.Verify_Backup_Checkbox"/>
+        <method signature="Verify_Preview_Page.verify_Create_Dynamic_Campaign(java.lang.String)[pri:0, instance:Preview.Verify_Preview_Page@16f48b4]" name="verify_Create_Dynamic_Campaign" class="Preview.Verify_Preview_Page"/>
+        <method signature="Verify_Background_Images.verify_Background_Images(java.lang.String)[pri:0, instance:Preview.Verify_Background_Images@398c80]" name="verify_Background_Images" class="Preview.Verify_Background_Images"/>
+      </group> <!-- regression -->
+      <group name="matched">
+        <method signature="Count_For_Matched_Missed_Multiple.manage_segment_for_Matched_Multiple_Missed()[pri:0, instance:Manage_Segment.Count_For_Matched_Missed_Multiple@153b9e]" name="manage_segment_for_Matched_Multiple_Missed" class="Manage_Segment.Count_For_Matched_Missed_Multiple"/>
+      </group> <!-- matched -->
+    </groups>
+    <test name="Login Test" duration-ms="5888" started-at="2016-03-07T12:57:17Z" finished-at="2016-03-07T12:57:22Z">
+      <class name="Login.LoginTest">
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:Login.LoginTest@2cc639]" name="logIn" duration-ms="5855" started-at="2016-03-07T18:27:17Z" data-provider="getData" finished-at="2016-03-07T18:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cnvn@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+      </class> <!-- Login.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Verify Campaigns Table" duration-ms="1" started-at="2016-03-07T12:57:22Z" finished-at="2016-03-07T12:57:22Z">
+    </test> <!-- Verify Campaigns Table -->
+    <test name="Verify create dynamic campaign" duration-ms="4797" started-at="2016-03-07T12:57:22Z" finished-at="2016-03-07T12:57:27Z">
+      <class name="Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign">
+        <test-method status="PASS" signature="verify_Create_Dynamic_Campaign(java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign@4f1591]" name="verify_Create_Dynamic_Campaign" duration-ms="4795" started-at="2016-03-07T18:27:22Z" data-provider="getData" finished-at="2016-03-07T18:27:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Campaign Builder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Create_Dynamic_Campaign -->
+      </class> <!-- Create_Dynamic_Campaigns.Verify_Create_Dynamic_Campaign -->
+    </test> <!-- Verify create dynamic campaign -->
+    <test name="Verify choose a type" duration-ms="1869" started-at="2016-03-07T12:57:27Z" finished-at="2016-03-07T12:57:29Z">
+      <class name="Create_Dynamic_Campaigns.Verify_Choose_A_Type">
+        <test-method status="PASS" signature="verify_Choose_A_Type_Of_Campaign()[pri:0, instance:Create_Dynamic_Campaigns.Verify_Choose_A_Type@8ac0e1]" name="verify_Choose_A_Type_Of_Campaign" duration-ms="1867" started-at="2016-03-07T18:27:27Z" finished-at="2016-03-07T18:27:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Choose_A_Type_Of_Campaign -->
+      </class> <!-- Create_Dynamic_Campaigns.Verify_Choose_A_Type -->
+    </test> <!-- Verify choose a type -->
+    <test name="Verify select a list" duration-ms="3467" started-at="2016-03-07T12:57:29Z" finished-at="2016-03-07T12:57:33Z">
+      <class name="Create_Dynamic_Campaigns.Verify_Select_A_List">
+        <test-method status="PASS" signature="verify_Select_List(java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Select_A_List@1dd365]" name="verify_Select_List" duration-ms="3465" started-at="2016-03-07T18:27:29Z" data-provider="getData" finished-at="2016-03-07T18:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chevrolet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Select_List -->
+      </class> <!-- Create_Dynamic_Campaigns.Verify_Select_A_List -->
+    </test> <!-- Verify select a list -->
+    <test name="Verify campaign setup" duration-ms="1" started-at="2016-03-07T12:57:33Z" finished-at="2016-03-07T12:57:33Z">
+    </test> <!-- Verify campaign setup -->
+    <test name="Verify General info" duration-ms="14423" started-at="2016-03-07T12:57:33Z" finished-at="2016-03-07T12:57:47Z">
+      <class name="Create_Dynamic_Campaigns.Verify_General_Info">
+        <test-method status="PASS" signature="verify_General_Information(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_General_Info@c5069b]" name="verify_General_Information" duration-ms="14421" started-at="2016-03-07T18:27:33Z" data-provider="getData" finished-at="2016-03-07T18:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CampaignTemplate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dynaimicampaigndemo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2016-03-03]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2016-03-07]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2016-03-04]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2016-03-30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_General_Information -->
+      </class> <!-- Create_Dynamic_Campaigns.Verify_General_Info -->
+    </test> <!-- Verify General info -->
+    <test name="Verify landing page details" duration-ms="13899" started-at="2016-03-07T12:57:47Z" finished-at="2016-03-07T12:58:01Z">
+      <class name="Create_Dynamic_Campaigns.Verify_Landing_Page_Details">
+        <test-method status="PASS" signature="verify_Landing_Page(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Landing_Page_Details@155e85b]" name="verify_Landing_Page" duration-ms="13895" started-at="2016-03-07T18:27:47Z" data-provider="getData" finished-at="2016-03-07T18:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://intice.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Key1_ Key2_Key3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Key1_Key2_Key3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[intice test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[intice]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[display test]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[display]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test term]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[term]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[fusion test]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[fusion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Landing_Page -->
+      </class> <!-- Create_Dynamic_Campaigns.Verify_Landing_Page_Details -->
+    </test> <!-- Verify landing page details -->
+    <test name="Verify billing details" duration-ms="0" started-at="2016-03-07T12:58:01Z" finished-at="2016-03-07T12:58:01Z">
+    </test> <!-- Verify billing details -->
+    <test name="Verify budget details" duration-ms="1" started-at="2016-03-07T12:58:01Z" finished-at="2016-03-07T12:58:01Z">
+    </test> <!-- Verify budget details -->
+    <test name="Verify impression details" duration-ms="0" started-at="2016-03-07T12:58:01Z" finished-at="2016-03-07T12:58:01Z">
+    </test> <!-- Verify impression details -->
+    <test name="Verify select template" duration-ms="4172" started-at="2016-03-07T12:58:01Z" finished-at="2016-03-07T12:58:05Z">
+      <class name="Create_Dynamic_Campaigns.Verify_Select_Template">
+        <test-method status="PASS" signature="verify_Select_Template()[pri:0, instance:Create_Dynamic_Campaigns.Verify_Select_Template@70a728]" name="verify_Select_Template" duration-ms="4170" started-at="2016-03-07T18:28:01Z" finished-at="2016-03-07T18:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Select_Template -->
+      </class> <!-- Create_Dynamic_Campaigns.Verify_Select_Template -->
+    </test> <!-- Verify select template -->
+    <test name="Verify 160600 banner" duration-ms="0" started-at="2016-03-07T12:58:05Z" finished-at="2016-03-07T12:58:05Z">
+    </test> <!-- Verify 160600 banner -->
+    <test name="Verify 72890 banner" duration-ms="0" started-at="2016-03-07T12:58:05Z" finished-at="2016-03-07T12:58:05Z">
+    </test> <!-- Verify 72890 banner -->
+    <test name="Verify 300250 banner" duration-ms="0" started-at="2016-03-07T12:58:05Z" finished-at="2016-03-07T12:58:05Z">
+    </test> <!-- Verify 300250 banner -->
+    <test name="Verify 32050 banner" duration-ms="1" started-at="2016-03-07T12:58:05Z" finished-at="2016-03-07T12:58:05Z">
+    </test> <!-- Verify 32050 banner -->
+    <test name="Verify text preview" duration-ms="6783" started-at="2016-03-07T12:58:05Z" finished-at="2016-03-07T12:58:12Z">
+      <class name="Create_Dynamic_Campaigns.Verify_Text_Preview">
+        <test-method status="PASS" signature="verify_Text_Preview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Dynamic_Campaigns.Verify_Text_Preview@1ac5227]" name="verify_Text_Preview" duration-ms="6780" started-at="2016-03-07T18:28:05Z" data-provider="getData" finished-at="2016-03-07T18:28:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We Want Your < Key1 >]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[< Key2 > < Key3 >]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Get $1000 Over <br /> Kelley Blue Book Value]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your car could be worth more than you think!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET OFFER]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[#ff0000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#4200ff]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[#00ffc1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[#22ff00]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[#ccff00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Text_Preview -->
+      </class> <!-- Create_Dynamic_Campaigns.Verify_Text_Preview -->
+    </test> <!-- Verify text preview -->
+    <test name="Manage Segment" duration-ms="8728" started-at="2016-03-07T12:58:12Z" finished-at="2016-03-07T12:58:21Z">
+      <class name="Manage_Segment.Select_Segment_For_Matching">
+        <test-method status="PASS" signature="select_Segment(java.lang.String)[pri:0, instance:Manage_Segment.Select_Segment_For_Matching@3b4ac8]" name="select_Segment" duration-ms="8726" started-at="2016-03-07T18:28:12Z" data-provider="getData" finished-at="2016-03-07T18:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HondaSegmentCampaign]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Segment -->
+      </class> <!-- Manage_Segment.Select_Segment_For_Matching -->
+    </test> <!-- Manage Segment -->
+    <test name="Matched Multiple Missed segments " duration-ms="82" started-at="2016-03-07T12:58:21Z" finished-at="2016-03-07T12:58:21Z">
+      <class name="Manage_Segment.Count_For_Matched_Missed_Multiple">
+        <test-method status="PASS" signature="manage_segment_for_Matched_Multiple_Missed()[pri:0, instance:Manage_Segment.Count_For_Matched_Missed_Multiple@153b9e]" name="manage_segment_for_Matched_Multiple_Missed" duration-ms="78" started-at="2016-03-07T18:28:21Z" finished-at="2016-03-07T18:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manage_segment_for_Matched_Multiple_Missed -->
+      </class> <!-- Manage_Segment.Count_For_Matched_Missed_Multiple -->
+    </test> <!-- Matched Multiple Missed segments  -->
+    <test name="Matched_Segments" duration-ms="0" started-at="2016-03-07T12:58:21Z" finished-at="2016-03-07T12:58:21Z">
+    </test> <!-- Matched_Segments -->
+    <test name="Mutliple segments" duration-ms="2" started-at="2016-03-07T12:58:21Z" finished-at="2016-03-07T12:58:21Z">
+    </test> <!-- Mutliple segments -->
+    <test name="Missed Segments" duration-ms="0" started-at="2016-03-07T12:58:21Z" finished-at="2016-03-07T12:58:21Z">
+    </test> <!-- Missed Segments -->
+    <test name="click on next without creating backup ad" duration-ms="2513" started-at="2016-03-07T12:58:21Z" finished-at="2016-03-07T12:58:23Z">
+      <class name="Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup">
+        <test-method status="PASS" signature="verify_Next_Button_Without_Creating_Backup_Ad()[pri:0, instance:Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup@142162a]" name="verify_Next_Button_Without_Creating_Backup_Ad" duration-ms="2512" started-at="2016-03-07T18:28:21Z" finished-at="2016-03-07T18:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Next_Button_Without_Creating_Backup_Ad -->
+      </class> <!-- Create_Generic_BackUp_Ads.Click_Next_Button_without_Creating_Backup -->
+    </test> <!-- click on next without creating backup ad -->
+    <test name="verify segment count" duration-ms="3" started-at="2016-03-07T12:58:23Z" finished-at="2016-03-07T12:58:23Z">
+      <class name="Create_Generic_BackUp_Ads.Verify_Segment_Count">
+        <test-method status="SKIP" signature="verify_Segment_Count_In_Create_Generic_Ad(java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Segment_Count@6804cd]" name="verify_Segment_Count_In_Create_Generic_Ad" duration-ms="0" started-at="2016-03-07T18:28:23Z" data-provider="getRowCount" finished-at="2016-03-07T18:28:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public static int Create_Generic_BackUp_Ads.Verify_Segment_Count.getRowCount() must return either Object[][] or Iterator<Object>[], not int]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public static int Create_Generic_BackUp_Ads.Verify_Segment_Count.getRowCount() must return either Object[][] or Iterator<Object>[], not int
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:156)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Segment_Count_In_Create_Generic_Ad -->
+      </class> <!-- Create_Generic_BackUp_Ads.Verify_Segment_Count -->
+    </test> <!-- verify segment count -->
+    <test name="verify text lines" duration-ms="940" started-at="2016-03-07T12:58:23Z" finished-at="2016-03-07T12:58:24Z">
+      <class name="Create_Generic_BackUp_Ads.Verify_Text_Lines">
+        <test-method status="PASS" signature="verify_Text_Lines_In_Create_Generic_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Text_Lines@1a00fb9]" name="verify_Text_Lines_In_Create_Generic_Ad" duration-ms="929" started-at="2016-03-07T18:28:23Z" data-provider="getData" finished-at="2016-03-07T18:28:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We Want Your < Key1 >]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[< Key2 > < Key3 >]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Get $1000 Over <br /> Kelley Blue Book Value]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your car could be worth more than you think!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[GET OFFER]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[#ff0000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#4200ff]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[#00ffc1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[#22ff00]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[#ccff00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Text_Lines_In_Create_Generic_Ad -->
+      </class> <!-- Create_Generic_BackUp_Ads.Verify_Text_Lines -->
+    </test> <!-- verify text lines -->
+    <test name="verify landing page url" duration-ms="364" started-at="2016-03-07T12:58:24Z" finished-at="2016-03-07T12:58:25Z">
+      <class name="Create_Generic_BackUp_Ads.Verify_Landing_Page_URL">
+        <test-method status="PASS" signature="verify_Landing_Page_url(java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Landing_Page_URL@1459491]" name="verify_Landing_Page_url" duration-ms="358" started-at="2016-03-07T18:28:24Z" data-provider="getData" finished-at="2016-03-07T18:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://intice.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Landing_Page_url -->
+      </class> <!-- Create_Generic_BackUp_Ads.Verify_Landing_Page_URL -->
+    </test> <!-- verify landing page url -->
+    <test name="Create Generic Ad" duration-ms="12609" started-at="2016-03-07T12:58:25Z" finished-at="2016-03-07T12:58:37Z">
+      <class name="Create_Generic_BackUp_Ads.Create_GenericAd">
+        <test-method status="PASS" signature="verify_Create_Generic_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Create_GenericAd@141827a]" name="verify_Create_Generic_Ad" duration-ms="12607" started-at="2016-03-07T18:28:25Z" data-provider="getData" finished-at="2016-03-07T18:28:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We Want Your < Key1 >]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[< Key2 > < Key3 >]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Get $1000 Over <br /> Kelley Blue Book Value]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your car could be worth more than you think!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Create_Generic_Ad -->
+      </class> <!-- Create_Generic_BackUp_Ads.Create_GenericAd -->
+    </test> <!-- Create Generic Ad -->
+    <test name="Create Backup Ad" duration-ms="20576" started-at="2016-03-07T12:58:37Z" finished-at="2016-03-07T12:58:58Z">
+      <class name="Create_Generic_BackUp_Ads.Create_BackUpAd">
+        <test-method status="PASS" signature="verify_Backup_Ad(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Create_Generic_BackUp_Ads.Create_BackUpAd@1fa2213]" name="verify_Backup_Ad" duration-ms="20572" started-at="2016-03-07T18:28:37Z" data-provider="getData" finished-at="2016-03-07T18:28:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We Want Your < Key1 >]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[< Key2 > < Key3 >]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Get $1000 Over <br /> Kelley Blue Book Value]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your car could be worth more than you think!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Backup_Ad -->
+      </class> <!-- Create_Generic_BackUp_Ads.Create_BackUpAd -->
+    </test> <!-- Create Backup Ad -->
+    <test name="Verify Backup checkbox" duration-ms="5653" started-at="2016-03-07T12:58:58Z" finished-at="2016-03-07T12:59:03Z">
+      <class name="Create_Generic_BackUp_Ads.Verify_Backup_Checkbox">
+        <test-method status="PASS" signature="verify_Backup_Checkbox()[pri:0, instance:Create_Generic_BackUp_Ads.Verify_Backup_Checkbox@7288a3]" name="verify_Backup_Checkbox" duration-ms="5650" started-at="2016-03-07T18:28:58Z" finished-at="2016-03-07T18:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Backup_Checkbox -->
+      </class> <!-- Create_Generic_BackUp_Ads.Verify_Backup_Checkbox -->
+    </test> <!-- Verify Backup checkbox -->
+    <test name="Verify Preview Page" duration-ms="10165" started-at="2016-03-07T12:59:03Z" finished-at="2016-03-07T12:59:14Z">
+      <class name="Preview.Verify_Preview_Page">
+        <test-method status="PASS" signature="verify_Create_Dynamic_Campaign(java.lang.String)[pri:0, instance:Preview.Verify_Preview_Page@16f48b4]" name="verify_Create_Dynamic_Campaign" duration-ms="10164" started-at="2016-03-07T18:29:03Z" data-provider="getData" finished-at="2016-03-07T18:29:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dynaimicampaigndemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Create_Dynamic_Campaign -->
+      </class> <!-- Preview.Verify_Preview_Page -->
+    </test> <!-- Verify Preview Page -->
+    <test name="Verify textlines in cbfeed" duration-ms="0" started-at="2016-03-07T12:59:14Z" finished-at="2016-03-07T12:59:14Z">
+    </test> <!-- Verify textlines in cbfeed -->
+    <test name="Verify background images in cbfeed" duration-ms="127793" started-at="2016-03-07T12:59:14Z" finished-at="2016-03-07T13:01:21Z">
+      <class name="Preview.Verify_Background_Images">
+        <test-method status="PASS" signature="verify_Background_Images(java.lang.String)[pri:0, instance:Preview.Verify_Background_Images@398c80]" name="verify_Background_Images" duration-ms="127792" started-at="2016-03-07T18:29:14Z" data-provider="getData" finished-at="2016-03-07T18:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dynaimicampaigndemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Background_Images -->
+      </class> <!-- Preview.Verify_Background_Images -->
+    </test> <!-- Verify background images in cbfeed -->
+  </suite> <!-- Intic Fusion Automation Framework -->
+</testng-results>
